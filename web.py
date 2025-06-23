@@ -127,7 +127,7 @@ def main():
     # 加载模型
     try:
         model = load_model()
-        st.sidebar.success("RF Model loaded successfully!")
+        st.sidebar.success("SARFS Model loaded successfully!")
     except Exception as e:
         st.sidebar.error(f"Model loading failed: {e}")
         return
